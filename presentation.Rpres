@@ -1,0 +1,51 @@
+Effect of the number of classes on accuracy of classification
+========================================================
+author: Vladimir Metelitsa
+date: 19/01/2017
+autosize: true
+
+Unsupervised and Supervised Classification
+========================================================
+
+We have gone over unsupervised and supervised classification in class.
+Quick refresher:
+- Unsupervised: 
+- Supervised: 
+
+What I made
+========================================================
+
+- Web interface to play with different inputs into classification
+- Support for both unsupervised and supervised classification
+- Customisable number of classes and sample size
+- Display of accuracy for supervised classification
+
+Demo time =)
+========================================================
+
+
+
+Results
+========================================================
+
+```{r, echo=FALSE}
+classes <- c(2, 3, 4, 5, 6, 7, 8, 9, 10)
+# precalculated using the shiny script, inserted as values to save processing time
+accuracies <- c(100, 100, 99.5762711864407, 96.8956406869221, 87.5982532751092, 86.1079723791588, 84.5211581291759, 82.8207051762941, 79.203187250996)
+
+plot.default(classes, accuracies)
+abline(lm(accuracies~classes), col="blue")
+```
+
+Clearly less accuracy the more classes we have.
+
+But why?
+
+Try it at home
+========================================================
+
+If you want to play with this, you can download it from my Github repository at: 
+
+https://github.com/Green-Cat/M15RemoteSensingProject
+
+Or try it online at a URL which will be added later to the description of my repo.
