@@ -13,7 +13,8 @@ shinyUI(fluidPage(
     mainPanel(
       plotOutput("dataPlot"),
       h5(textOutput("details")),
-      h5(textOutput("details2"))
+      h5(textOutput("details2")),
+      h6("Source code available on", tags$a(href = "https://github.com/Green-Cat/M15RemoteSensingProject", "Github"))
     )
   )
 ))
