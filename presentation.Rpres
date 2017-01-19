@@ -9,8 +9,8 @@ Unsupervised and Supervised Classification
 
 We have gone over unsupervised and supervised classification in class.
 Quick refresher:
-- Unsupervised: 
-- Supervised: 
+- Unsupervised: Model "guesses" classes itself
+- Supervised: You provide training data for the model as a vector file
 
 What I made
 ========================================================
@@ -48,4 +48,4 @@ If you want to play with this, you can download it from my Github repository at:
 
 https://github.com/Green-Cat/M15RemoteSensingProject
 
-Or try it online at a URL which will be added later to the description of my repo.
+Or try it online at a URL which will be added later to the description of my repository.
